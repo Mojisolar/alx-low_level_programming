@@ -28,7 +28,7 @@ int main(void)
 				putchar(32);
 			}
 		}
-		d++
+		d++;
 	}
 	putchar('\n');
 	return (0);
