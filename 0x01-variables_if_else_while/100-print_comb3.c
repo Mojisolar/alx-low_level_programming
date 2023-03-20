@@ -16,7 +16,7 @@ int main(void)
 		e = d % 10; /* singles digit */
 		f = d / 10; /* doubles digit */
 
-		if (f < e)
+		if (e < f)
 		{
 			putchar(e + '0');
 			putchar(f + '0');
